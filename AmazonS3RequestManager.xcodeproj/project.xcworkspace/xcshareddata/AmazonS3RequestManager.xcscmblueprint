@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D9DC2573AAF8EB7C3A5D49BFACB3C9A51C04E7C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0D9DC2573AAF8EB7C3A5D49BFACB3C9A51C04E7C" : 9223372036854775807,
+    "AB0A48DD995E26A187DED71E830FA3DB4DD771C9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "14486C47-94F7-45A4-AA41-D09AB6BE3854",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0D9DC2573AAF8EB7C3A5D49BFACB3C9A51C04E7C" : "AmazonS3RequestManager\/",
+    "AB0A48DD995E26A187DED71E830FA3DB4DD771C9" : "Carthage\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AmazonS3RequestManager",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AmazonS3RequestManager.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:AnthonyMDev\/AmazonS3RequestManager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D9DC2573AAF8EB7C3A5D49BFACB3C9A51C04E7C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:carthage\/Carthage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB0A48DD995E26A187DED71E830FA3DB4DD771C9"
+    }
+  ]
+}

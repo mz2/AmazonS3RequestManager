@@ -8,34 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		5F13AD2A1ED36AA9002013F3 /* AmazonS3RequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F13AD281ED36AA9002013F3 /* AmazonS3RequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F13AD3A1ED36AC8002013F3 /* ACL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD301ED36AC8002013F3 /* ACL.swift */; };
-		5F13AD3C1ED36AC8002013F3 /* AmazonS3RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD321ED36AC8002013F3 /* AmazonS3RequestManager.swift */; };
-		5F13AD3D1ED36AC8002013F3 /* AmazonS3RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD331ED36AC8002013F3 /* AmazonS3RequestSerializer.swift */; };
-		5F13AD3E1ED36AC8002013F3 /* AmazonS3SignatureHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F13AD341ED36AC8002013F3 /* AmazonS3SignatureHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F13AD3F1ED36AC8002013F3 /* AmazonS3SignatureHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD351ED36AC8002013F3 /* AmazonS3SignatureHelpers.m */; };
-		5F13AD401ED36AC8002013F3 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD361ED36AC8002013F3 /* Region.swift */; };
-		5F13AD411ED36AC8002013F3 /* ResponseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD371ED36AC8002013F3 /* ResponseObjects.swift */; };
-		5F13AD421ED36AC8002013F3 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD381ED36AC8002013F3 /* ResponseSerialization.swift */; };
-		5F13AD431ED36AC8002013F3 /* S3Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD391ED36AC8002013F3 /* S3Error.swift */; };
-		5F13AD461ED36B74002013F3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F13AD451ED36B74002013F3 /* Alamofire.framework */; };
-		5F13AD481ED36F94002013F3 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F13AD471ED36F94002013F3 /* SWXMLHash.framework */; };
+		5F13AD4B1ED372FA002013F3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F13AD491ED372FA002013F3 /* Alamofire.framework */; };
+		5F13AD4C1ED372FA002013F3 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F13AD4A1ED372FA002013F3 /* SWXMLHash.framework */; };
+		5F13AD571ED373AA002013F3 /* ACL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD4D1ED373AA002013F3 /* ACL.swift */; };
+		5F13AD591ED373AA002013F3 /* AmazonS3RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD4F1ED373AA002013F3 /* AmazonS3RequestManager.swift */; };
+		5F13AD5A1ED373AA002013F3 /* AmazonS3RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD501ED373AA002013F3 /* AmazonS3RequestSerializer.swift */; };
+		5F13AD5B1ED373AA002013F3 /* AmazonS3SignatureHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F13AD511ED373AA002013F3 /* AmazonS3SignatureHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F13AD5C1ED373AA002013F3 /* AmazonS3SignatureHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD521ED373AA002013F3 /* AmazonS3SignatureHelpers.m */; };
+		5F13AD5D1ED373AA002013F3 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD531ED373AA002013F3 /* Region.swift */; };
+		5F13AD5E1ED373AA002013F3 /* ResponseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD541ED373AA002013F3 /* ResponseObjects.swift */; };
+		5F13AD5F1ED373AA002013F3 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD551ED373AA002013F3 /* ResponseSerialization.swift */; };
+		5F13AD601ED373AA002013F3 /* S3Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13AD561ED373AA002013F3 /* S3Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F13AD251ED36AA9002013F3 /* AmazonS3RequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmazonS3RequestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F13AD281ED36AA9002013F3 /* AmazonS3RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmazonS3RequestManager.h; sourceTree = "<group>"; };
 		5F13AD291ED36AA9002013F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F13AD301ED36AC8002013F3 /* ACL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACL.swift; path = ../../Source/ACL.swift; sourceTree = "<group>"; };
-		5F13AD321ED36AC8002013F3 /* AmazonS3RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmazonS3RequestManager.swift; path = ../../Source/AmazonS3RequestManager.swift; sourceTree = "<group>"; };
-		5F13AD331ED36AC8002013F3 /* AmazonS3RequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmazonS3RequestSerializer.swift; path = ../../Source/AmazonS3RequestSerializer.swift; sourceTree = "<group>"; };
-		5F13AD341ED36AC8002013F3 /* AmazonS3SignatureHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AmazonS3SignatureHelpers.h; path = ../../Source/AmazonS3SignatureHelpers.h; sourceTree = "<group>"; };
-		5F13AD351ED36AC8002013F3 /* AmazonS3SignatureHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AmazonS3SignatureHelpers.m; path = ../../Source/AmazonS3SignatureHelpers.m; sourceTree = "<group>"; };
-		5F13AD361ED36AC8002013F3 /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Region.swift; path = ../../Source/Region.swift; sourceTree = "<group>"; };
-		5F13AD371ED36AC8002013F3 /* ResponseObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseObjects.swift; path = ../../Source/ResponseObjects.swift; sourceTree = "<group>"; };
-		5F13AD381ED36AC8002013F3 /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = ../../Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		5F13AD391ED36AC8002013F3 /* S3Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = S3Error.swift; path = ../../Source/S3Error.swift; sourceTree = "<group>"; };
-		5F13AD451ED36B74002013F3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
-		5F13AD471ED36F94002013F3 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = ../Carthage/Build/Mac/SWXMLHash.framework; sourceTree = "<group>"; };
+		5F13AD491ED372FA002013F3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		5F13AD4A1ED372FA002013F3 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/Mac/SWXMLHash.framework; sourceTree = SOURCE_ROOT; };
+		5F13AD4D1ED373AA002013F3 /* ACL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACL.swift; path = Source/ACL.swift; sourceTree = SOURCE_ROOT; };
+		5F13AD4F1ED373AA002013F3 /* AmazonS3RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmazonS3RequestManager.swift; path = Source/AmazonS3RequestManager.swift; sourceTree = SOURCE_ROOT; };
+		5F13AD501ED373AA002013F3 /* AmazonS3RequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmazonS3RequestSerializer.swift; path = Source/AmazonS3RequestSerializer.swift; sourceTree = SOURCE_ROOT; };
+		5F13AD511ED373AA002013F3 /* AmazonS3SignatureHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AmazonS3SignatureHelpers.h; path = Source/AmazonS3SignatureHelpers.h; sourceTree = SOURCE_ROOT; };
+		5F13AD521ED373AA002013F3 /* AmazonS3SignatureHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AmazonS3SignatureHelpers.m; path = Source/AmazonS3SignatureHelpers.m; sourceTree = SOURCE_ROOT; };
+		5F13AD531ED373AA002013F3 /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Region.swift; path = Source/Region.swift; sourceTree = SOURCE_ROOT; };
+		5F13AD541ED373AA002013F3 /* ResponseObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseObjects.swift; path = Source/ResponseObjects.swift; sourceTree = SOURCE_ROOT; };
+		5F13AD551ED373AA002013F3 /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = SOURCE_ROOT; };
+		5F13AD561ED373AA002013F3 /* S3Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = S3Error.swift; path = Source/S3Error.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F13AD481ED36F94002013F3 /* SWXMLHash.framework in Frameworks */,
-				5F13AD461ED36B74002013F3 /* Alamofire.framework in Frameworks */,
+				5F13AD4C1ED372FA002013F3 /* SWXMLHash.framework in Frameworks */,
+				5F13AD4B1ED372FA002013F3 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,8 +54,6 @@
 		5F13AD1B1ED36AA9002013F3 = {
 			isa = PBXGroup;
 			children = (
-				5F13AD471ED36F94002013F3 /* SWXMLHash.framework */,
-				5F13AD451ED36B74002013F3 /* Alamofire.framework */,
 				5F13AD271ED36AA9002013F3 /* AmazonS3RequestManager */,
 				5F13AD261ED36AA9002013F3 /* Products */,
 			);
@@ -72,15 +70,17 @@
 		5F13AD271ED36AA9002013F3 /* AmazonS3RequestManager */ = {
 			isa = PBXGroup;
 			children = (
-				5F13AD301ED36AC8002013F3 /* ACL.swift */,
-				5F13AD321ED36AC8002013F3 /* AmazonS3RequestManager.swift */,
-				5F13AD331ED36AC8002013F3 /* AmazonS3RequestSerializer.swift */,
-				5F13AD341ED36AC8002013F3 /* AmazonS3SignatureHelpers.h */,
-				5F13AD351ED36AC8002013F3 /* AmazonS3SignatureHelpers.m */,
-				5F13AD361ED36AC8002013F3 /* Region.swift */,
-				5F13AD371ED36AC8002013F3 /* ResponseObjects.swift */,
-				5F13AD381ED36AC8002013F3 /* ResponseSerialization.swift */,
-				5F13AD391ED36AC8002013F3 /* S3Error.swift */,
+				5F13AD4D1ED373AA002013F3 /* ACL.swift */,
+				5F13AD4F1ED373AA002013F3 /* AmazonS3RequestManager.swift */,
+				5F13AD501ED373AA002013F3 /* AmazonS3RequestSerializer.swift */,
+				5F13AD511ED373AA002013F3 /* AmazonS3SignatureHelpers.h */,
+				5F13AD521ED373AA002013F3 /* AmazonS3SignatureHelpers.m */,
+				5F13AD531ED373AA002013F3 /* Region.swift */,
+				5F13AD541ED373AA002013F3 /* ResponseObjects.swift */,
+				5F13AD551ED373AA002013F3 /* ResponseSerialization.swift */,
+				5F13AD561ED373AA002013F3 /* S3Error.swift */,
+				5F13AD491ED372FA002013F3 /* Alamofire.framework */,
+				5F13AD4A1ED372FA002013F3 /* SWXMLHash.framework */,
 				5F13AD281ED36AA9002013F3 /* AmazonS3RequestManager.h */,
 				5F13AD291ED36AA9002013F3 /* Info.plist */,
 			);
@@ -95,7 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F13AD2A1ED36AA9002013F3 /* AmazonS3RequestManager.h in Headers */,
-				5F13AD3E1ED36AC8002013F3 /* AmazonS3SignatureHelpers.h in Headers */,
+				5F13AD5B1ED373AA002013F3 /* AmazonS3SignatureHelpers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,14 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F13AD431ED36AC8002013F3 /* S3Error.swift in Sources */,
-				5F13AD3A1ED36AC8002013F3 /* ACL.swift in Sources */,
-				5F13AD3C1ED36AC8002013F3 /* AmazonS3RequestManager.swift in Sources */,
-				5F13AD3F1ED36AC8002013F3 /* AmazonS3SignatureHelpers.m in Sources */,
-				5F13AD411ED36AC8002013F3 /* ResponseObjects.swift in Sources */,
-				5F13AD401ED36AC8002013F3 /* Region.swift in Sources */,
-				5F13AD421ED36AC8002013F3 /* ResponseSerialization.swift in Sources */,
-				5F13AD3D1ED36AC8002013F3 /* AmazonS3RequestSerializer.swift in Sources */,
+				5F13AD601ED373AA002013F3 /* S3Error.swift in Sources */,
+				5F13AD571ED373AA002013F3 /* ACL.swift in Sources */,
+				5F13AD591ED373AA002013F3 /* AmazonS3RequestManager.swift in Sources */,
+				5F13AD5C1ED373AA002013F3 /* AmazonS3SignatureHelpers.m in Sources */,
+				5F13AD5E1ED373AA002013F3 /* ResponseObjects.swift in Sources */,
+				5F13AD5D1ED373AA002013F3 /* Region.swift in Sources */,
+				5F13AD5F1ED373AA002013F3 /* ResponseSerialization.swift in Sources */,
+				5F13AD5A1ED373AA002013F3 /* AmazonS3RequestSerializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +292,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../Carthage/Build/Mac;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = AmazonS3RequestManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -316,7 +316,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../Carthage/Build/Mac;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = AmazonS3RequestManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
