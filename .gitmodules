@@ -1,0 +1,6 @@
+[submodule "Carthage/Checkouts/Alamofire"]
+	path = Carthage/Checkouts/Alamofire
+	url = ssh://git@github.com/alamofire/Alamofire.git
+[submodule "Carthage/Checkouts/SWXMLHash"]
+	path = Carthage/Checkouts/SWXMLHash
+	url = ssh://git@github.com/drmohundro/SWXMLHash.git
