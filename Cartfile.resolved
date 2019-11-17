@@ -1,2 +1,2 @@
 github "alamofire/Alamofire" "4.9.1"
-github "drmohundro/SWXMLHash" "4.7.0"
+github "mz2/SWXMLHash" "feature/swift-5"
